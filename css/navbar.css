@@ -1,0 +1,34 @@
+@media (min-width: 991.98px) {
+  .navbar {
+    display: none !important;
+  }
+  .collapse:not(.show) {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #profile {
+    display: none !important;
+  }
+  .navbar > .container-fluid > img {
+    height: 2.4rem;
+  }
+  .navbar-toggler {
+    font-size: 1.45rem !important;
+  }
+  #social-links {
+    margin: 0.5rem 0.5rem;
+  }
+  .navbar {
+    /* overwriting MDB class */
+    position: fixed !important;
+    width: 100%;
+    z-index: 1;
+    background-color: #000000;
+    top: 0;
+  }
+  svg {
+    filter: brightness(0) invert(1) !important;
+  }
+}
