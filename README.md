@@ -1,4 +1,6 @@
-# diego.corradi_newportfolio
-Code of my new Portfolio, written in HTML and CSS.
+# js_countersimple
+Simple JavaScript application that allows the user to increase and decrease the counter value.
 
-Link: https://diegocorradi.netlify.app
+![image-20220619182448642](C:\Users\diego\AppData\Roaming\Typora\typora-user-images\image-20220619182448642.png)
+
+Link: https://jscountersimple.netlify.app
