@@ -124,3 +124,11 @@ a {
     background-position: 0 0;
   }
 }
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+#git-link {
+  color: #002bff !important;
+}
