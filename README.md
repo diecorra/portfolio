@@ -1,4 +1,4 @@
-# diego.corradi_newportfolio
+# diegocorradi-portfolio
 
 Code of my new Portfolio, written in HTML and CSS.
 
