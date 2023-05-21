@@ -1,0 +1,55 @@
+#home {
+  height: 100vh;
+  /* prendo in riferimento solo la pagina, senza la navbar */
+  padding-top: calc(3rem + 46px);
+}
+
+#experience,
+#portfolio,
+#aboutme {
+  padding-bottom: 100px;
+  color: #f1f1f1;
+  padding-top: calc(3rem + 60px);
+}
+
+#aboutme {
+  padding-bottom: 200px;
+}
+
+#aboutme_text {
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.btn-outline-light:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: 0.6s;
+}
+
+@media (min-width: 991.98px) {
+  body > section {
+    margin-left: 15vw;
+  }
+
+  #experience,
+  #portfolio,
+  #aboutme {
+    height: 100vh;
+  }
+
+  #home {
+    padding: 0px;
+  }
+  .container {
+    max-width: 960px !important;
+  }
+  .card {
+    transition: 1.5s;
+    height: 100%;
+  }
+}
