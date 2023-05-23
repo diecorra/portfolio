@@ -1,0 +1,24 @@
+.scene {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dc-spinner{
+  height: 50%;
+  width: 100%;
+}
+
+.dc-logo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+@keyframes arrow-spin {
+  50% {
+    transform: rotateY(360deg);
+  }
+}

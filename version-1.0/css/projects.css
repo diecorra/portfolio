@@ -1,0 +1,24 @@
+@import url('data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdTcGFydGFuJzsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC13ZWlnaHQ6IDYwMDsKICBmb250LWRpc3BsYXk6IHN3YXA7CiAgc3JjOiB1cmwoaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL3NwYXJ0YW4vdjMvbDdnQWJqUjYxTTY5eXQ4Wjh3NkZaZjlXb0J4ZEJyRmJ2bTZPLnR0ZikgZm9ybWF0KCd0cnVldHlwZScpOwp9Cg==');
+
+.projects-section{
+  padding-top: 20px;
+}
+
+.p-projects{
+  justify-content: flex-start;
+  text-align:justify;
+  margin: 20px 20px;
+  line-height: 1.6;
+  position: relative;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  align-items: center;
+  overflow-y: hidden;
+}

@@ -1,0 +1,79 @@
+#vi-sec{
+  text-align: left;
+}
+
+.about-section{
+  padding-top: 20px;
+}
+
+.p-about{
+  justify-content: flex-start;
+  text-align: left;
+  margin: 20px 20px;
+  line-height: 1.6;
+  position: relative;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.video-section{
+  font-size: 20px;
+  margin: 50px 0 40px 20px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.div-video-section{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.mySlides{
+  display:none;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+#div-slider{
+  width: 80%;
+  margin: 0 auto;
+  max-width:350px;
+}
+
+#img-about-me{
+  margin: 60px 0;
+}
+
+@media (min-width: 1281px) {
+  .about-section {
+    padding-top: 50px;
+    margin-top: 100px;
+  }
+  #about{
+    width: 50%;
+    margin: 0 auto;
+  }
+  #img-about-me{
+    margin: 60px 0;
+  }
+  .p-about{
+    margin-bottom: 30px;
+  }
+  .video-section{
+    margin: 50px 0 40px 0;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .video-section{
+    font-size: 25px;
+  }
+}
