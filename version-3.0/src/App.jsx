@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import Footer from './features/Footer';
+import Resume from './features/Resume';
+import Home from './features/home/Home';
+import Projects from './features/projects/Projects';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>ciao</div>
+      <Home />
+      <Projects />
+      <Resume />
+      <Footer />
     </>
   );
 }
