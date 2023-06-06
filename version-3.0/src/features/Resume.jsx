@@ -1,10 +1,11 @@
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import resume from '../assets/CorradiResume.pdf';
 
 const Resume = () => {
   return (
     <div
       id="resume"
-      className="container mx-auto px-36 py-10 min-h-screen flex flex-col items-center"
+      className="container mx-auto px-10 py-10 min-h-screen flex flex-col items-center md:px-36"
     >
       <h1 className="text-4xl font-bold text-primary py-7 md:text-7xl lg:text-5xl">
         Resume

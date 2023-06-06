@@ -1,6 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { wikidrinkimg } from '../../assets/projectimages/wikidrink';
 import ProjectImage from '../../shared/ProjectImage';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const cards = [
   {
@@ -16,7 +17,7 @@ const cards = [
 
 const Card = () => {
   return (
-    <>
+    <AnimationOnScroll animateIn="animate__bounceIn">
       {cards.map((card) => {
         return (
           <div
@@ -54,7 +55,7 @@ const Card = () => {
           </div>
         );
       })}
-    </>
+    </AnimationOnScroll>
   );
 };
 
