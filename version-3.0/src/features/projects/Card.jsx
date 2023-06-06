@@ -21,14 +21,14 @@ const Card = () => {
         return (
           <div
             key={card.alt}
-            className="max-w-sm rounded overflow-hidden shadow-lg bg-primary"
+            className="max-w-sm rounded overflow-hidden shadow-lg bg-primary md:max-w-4xl lg:max-w-md"
           >
             <ProjectImage imgUrl={card.imgUrl} alt={card.alt} />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2 text-secondary">
+              <div className="font-bold text-xl mb-2 text-secondary md:text-4xl lg:text-2xl">
                 {card.alt}
               </div>
-              <p className="text-sm font-light text-white">
+              <p className="text-sm font-light text-white md:text-3xl lg:text-xl">
                 {card.description}
               </p>
             </div>
@@ -37,7 +37,7 @@ const Card = () => {
                 href={card.githubrepo}
                 target="_blank"
                 rel="noreferrer"
-                className="flex flex-row justify-between items-center py-2 px-4 rounded font-semibold bg-secondary text-primary"
+                className="flex flex-row justify-between items-center py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-3xl lg:text-xl"
               >
                 <AiFillGithub />
                 GitHub
@@ -46,7 +46,7 @@ const Card = () => {
                 href={card.weblink}
                 target="_blank"
                 rel="noreferrer"
-                className="py-2 px-4 rounded font-semibold bg-secondary text-primary"
+                className="py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-3xl lg:text-xl"
               >
                 Live
               </a>

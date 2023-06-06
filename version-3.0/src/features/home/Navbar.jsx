@@ -29,12 +29,14 @@ const socialLink = [
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-around items-center my-3">
+    <nav className="flex justify-evenly items-center my-3">
       {socialLink.map((link) => {
         return (
           <ul key={link.name}>
             <a href={link.url} alt={link.name} target="_blank" rel="noreferrer">
-              <IconContext.Provider value={{ color: '#130F49', size: '50px' }}>
+              <IconContext.Provider
+                value={{ color: '#130F49', size: '3.5rem' }}
+              >
                 {link.icon}
               </IconContext.Provider>
             </a>

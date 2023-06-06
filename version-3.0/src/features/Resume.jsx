@@ -4,10 +4,12 @@ const Resume = () => {
   return (
     <div
       id="resume"
-      className="container mx-auto px-10 py-10 min-h-screen flex flex-col items-center"
+      className="container mx-auto px-36 py-10 min-h-screen flex flex-col items-center"
     >
-      <h1 className="text-4xl font-bold text-primary py-7">Resume</h1>
-      <article>
+      <h1 className="text-4xl font-bold text-primary py-7 md:text-7xl lg:text-5xl">
+        Resume
+      </h1>
+      <article className="md:text-3xl lg:text-xl">
         This is my resume, you can easily find my contacts and if you want you
         can download it{' '}
         <a className="underline underline-offset-2" href={resume} download>
