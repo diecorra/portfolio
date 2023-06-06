@@ -1,8 +1,14 @@
 import { IconContext } from 'react-icons';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { CiMail } from 'react-icons/ci';
 
 const socialLink = [
+  {
+    url: 'https://www.instagram.com/diecorra',
+    icon: <AiFillInstagram />,
+
+    name: 'Instagram',
+  },
   {
     url: 'https://github.com/diecorra',
     icon: <AiFillGithub />,

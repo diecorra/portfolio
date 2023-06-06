@@ -16,10 +16,10 @@ const DescriptionCard = () => {
         </p>
       </div>
       <div className="flex flex-row justify-evenly w-full">
-        <button className="py-2 px-4 rounded bg-secondary text-primary">
+        <button className="py-2 px-4 rounded font-semibold bg-secondary text-primary">
           Get CV
         </button>
-        <button className="py-2 px-4 rounded bg-secondary text-primary">
+        <button className="py-2 px-4 rounded font-semibold bg-secondary text-primary">
           Projects
         </button>
       </div>
