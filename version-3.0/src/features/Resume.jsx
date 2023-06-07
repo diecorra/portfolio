@@ -1,5 +1,5 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import resume from '../assets/CorradiResume.pdf';
+import Footer from './Footer';
 
 const Resume = () => {
   return (
@@ -50,11 +50,7 @@ const Resume = () => {
           allow="fullscreen"
         ></iframe>
       </div>
-      <a
-        href="https://www.canva.com/design/DAFjjeM-XOk/view?utm_content=DAFjjeM-XOk&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-        target="_blank"
-        rel="noreferrer"
-      ></a>{' '}
+      <Footer />
     </div>
   );
 };

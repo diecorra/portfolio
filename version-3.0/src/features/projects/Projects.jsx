@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="container mx-auto px-10 min-h-screen flex flex-col items-center"
+      className="container mx-auto px-10 flex flex-col items-center"
     >
       <h1 className="text-4xl font-bold text-primary py-7 md:text-7xl lg:text-5xl">
         Projects

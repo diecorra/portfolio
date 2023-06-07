@@ -35,7 +35,10 @@ const Navbar = () => {
           <ul key={link.name}>
             <a href={link.url} alt={link.name} target="_blank" rel="noreferrer">
               <IconContext.Provider
-                value={{ color: '#130F49', size: '3.5rem' }}
+                value={{
+                  className:
+                    'text-primary hover:text-secondary text-4xl md:text-5xl',
+                }}
               >
                 {link.icon}
               </IconContext.Provider>

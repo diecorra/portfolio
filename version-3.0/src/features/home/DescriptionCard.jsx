@@ -12,7 +12,7 @@ const DescriptionCard = () => {
         </h4>
       </div>
       <div>
-        <p className="text-sm font-light text-primary text-justify md:text-4xl lg:text-2xl lg:px-36 -tracking-tight">
+        <p className="text-sm font-light text-primary md:text-4xl lg:text-2xl lg:px-36 break-all">
           I am a passionate front-end developer with 3 years of development
           experience, specializing in{' '}
           <strong className="font-bold hover:text-secondary">front-end</strong>{' '}

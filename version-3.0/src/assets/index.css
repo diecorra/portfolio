@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button-card {
+    @apply flex gap-x-2 justify-center items-center py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-3xl lg:text-xl min-w-[112px];
+  }
+}
