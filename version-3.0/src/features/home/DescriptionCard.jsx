@@ -3,16 +3,14 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const DescriptionCard = () => {
   return (
     <div className="flex flex-col justify-evenly items-center grow">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-evenly items-center">
         <h1 className="text-4xl font-bold text-primary md:text-7xl z-10">
           Diego Corradi
         </h1>
         <h4 className="text-xl font-semibold text-secondary md:text-4xl">
           Front-End Developer
         </h4>
-      </div>
-      <div>
-        <p className="text-sm font-light text-primary md:text-4xl lg:text-2xl lg:px-36 break-all">
+        <p className="text-sm py-4 font-light text-primary md:text-4xl md:py-10 lg:text-2xl lg:px-36 break-all">
           I am a passionate front-end developer with 3 years of development
           experience, specializing in{' '}
           <strong className="font-bold hover:text-secondary">front-end</strong>{' '}
@@ -33,7 +31,7 @@ const DescriptionCard = () => {
         <AnimationOnScroll initiallyVisible={true} animateIn="animate__bounce">
           <a
             href="#resume"
-            className="py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
+            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
           >
             Resume
           </a>
@@ -41,7 +39,7 @@ const DescriptionCard = () => {
         <AnimationOnScroll initiallyVisible={true} animateIn="">
           <a
             href="#projects"
-            className="py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
+            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
           >
             Projects
           </a>
