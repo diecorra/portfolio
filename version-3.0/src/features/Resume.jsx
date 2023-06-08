@@ -1,4 +1,3 @@
-import resume from '../assets/CorradiResume.pdf';
 import Footer from './Footer';
 
 const Resume = () => {
@@ -13,7 +12,12 @@ const Resume = () => {
       <article className="md:text-3xl lg:text-xl">
         This is my resume, you can easily find my contacts and if you want you
         can download it{' '}
-        <a className="underline underline-offset-2" href={resume} download>
+        <a
+          className="underline underline-offset-2"
+          href="https://drive.google.com/file/d/1bXWiwP1BpZtmRlkGrzw6F03gfFhePVfi/view?usp=drivesdk"
+          target="_blank"
+          rel="noreferrer"
+        >
           here
         </a>
         .
