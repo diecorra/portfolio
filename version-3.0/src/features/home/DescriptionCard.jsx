@@ -3,7 +3,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const DescriptionCard = () => {
   return (
     <div className="flex flex-col justify-evenly items-center grow">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-evenly items-center">
         <h1 className="text-4xl font-bold text-primary md:text-7xl z-10">
           Diego Corradi
         </h1>
@@ -36,7 +36,7 @@ const DescriptionCard = () => {
         <AnimationOnScroll initiallyVisible={true} animateIn="animate__bounce">
           <a
             href="#resume"
-            className="py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
+            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
           >
             Resume
           </a>
@@ -44,7 +44,7 @@ const DescriptionCard = () => {
         <AnimationOnScroll initiallyVisible={true} animateIn="">
           <a
             href="#projects"
-            className="py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
+            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
           >
             Projects
           </a>

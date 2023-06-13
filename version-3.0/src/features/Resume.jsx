@@ -1,4 +1,3 @@
-import resume from '../assets/CorradiResume.pdf';
 import Footer from './Footer';
 
 const Resume = () => {
