@@ -13,20 +13,23 @@ const DescriptionCard = () => {
       </div>
       <div>
         <p className="text-sm font-light text-primary md:text-4xl lg:text-2xl lg:px-36 break-all">
-          I am a passionate front-end developer with 3 years of development
-          experience, specializing in{' '}
+          I am an enthusiastic front-end developer with 3 years of experience in
+          full-stack development, specializing in{' '}
           <strong className="font-bold hover:text-secondary">front-end</strong>{' '}
-          for the past 2 years. I enjoy working in teams and honing my skills,
-          with strong soft skills including{' '}
+          development over the past year. In the last 2 years, I have devoted my
+          free time to immersing myself in the world of front-end development,
+          continuously enhancing my skills and staying updated on current
+          trends. I have a strong passion for collaborative teamwork and strive
+          to constantly improve and grow as a developer. I possess strong soft
+          skills such as{' '}
           <strong className="font-bold hover:text-secondary">creativity</strong>{' '}
-          and{' '}
+          and the ability to build interpersonal{' '}
           <strong className="font-bold hover:text-secondary">
-            relationship-building
+            relationships
           </strong>
-          . During my free time, I dedicate myself to learning, developing new
-          projects, and staying current with front-end trends. Ready to leverage
-          my experience and skills to contribute to the success of exciting
-          projects.
+          . I am an avid reader of personal growth books and a marathon runner.
+          I am ready to apply my experience and skills as a front-end developer
+          to contribute to the success of exciting projects.
         </p>
       </div>
       <div className="flex flex-row justify-evenly w-full">

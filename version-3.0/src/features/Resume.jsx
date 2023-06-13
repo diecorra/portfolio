@@ -13,7 +13,11 @@ const Resume = () => {
       <article className="md:text-3xl lg:text-xl">
         This is my resume, you can easily find my contacts and if you want you
         can download it{' '}
-        <a className="underline underline-offset-2" href={resume} download>
+        <a
+          className="underline underline-offset-2"
+          href="https://drive.google.com/file/d/1y7T6pGcyApgvlQqIQFwOPeqdvZ-qfOo1/view?usp=drive_link"
+          target="_blank"
+        >
           here
         </a>
         .
