@@ -14,7 +14,7 @@ const Resume = () => {
         can download it{' '}
         <a
           className="underline underline-offset-2"
-          href="https://drive.google.com/file/d/1y7T6pGcyApgvlQqIQFwOPeqdvZ-qfOo1/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1iBzFVzEvI4jeBTipHLXjHF-tKHrg6Ju6/view?usp=sharing"
           target="_blank"
         >
           here
