@@ -1,6 +1,6 @@
 import Card from './Card';
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <div
       id="projects"
@@ -13,3 +13,5 @@ export const Projects = () => {
     </div>
   );
 };
+
+export default Projects;
