@@ -27,16 +27,14 @@ const DescriptionCard = () => {
           <strong className="font-bold hover:text-secondary">
             relationships
           </strong>
-          . I am an avid reader of personal growth books and a marathon runner.
-          I am ready to apply my experience and skills as a front-end developer
-          to contribute to the success of exciting projects.
+          .
         </p>
       </div>
       <div className="flex flex-row justify-evenly w-full">
         <AnimationOnScroll initiallyVisible={true} animateIn="animate__bounce">
           <a
             href="#resume"
-            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
+            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl hover:bg-cyan-300"
           >
             Resume
           </a>
@@ -44,7 +42,7 @@ const DescriptionCard = () => {
         <AnimationOnScroll initiallyVisible={true} animateIn="">
           <a
             href="#projects"
-            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl"
+            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl hover:bg-cyan-300"
           >
             Projects
           </a>

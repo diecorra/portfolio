@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div
       id="resume"
-      className="container mx-auto px-10 py-10 min-h-screen flex flex-col items-center md:px-36"
+      className="container mx-auto px-14 py-10 min-h-screen flex flex-col items-center md:px-36"
     >
       <h1 className="text-4xl font-bold text-primary py-7 md:text-7xl lg:text-5xl">
         Resume
@@ -16,6 +16,7 @@ const Resume = () => {
           className="underline underline-offset-2"
           href="https://drive.google.com/file/d/1iBzFVzEvI4jeBTipHLXjHF-tKHrg6Ju6/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           here
         </a>
