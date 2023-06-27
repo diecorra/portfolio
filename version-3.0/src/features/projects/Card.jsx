@@ -19,7 +19,7 @@ const Card = () => {
                 <div className="font-bold text-xl text-secondary md:text-4xl lg:text-2xl py-4 md:py-6">
                   {projectData.alt}
                 </div>
-                <p className="text-sm font-light text-white md:text-3xl lg:text-xl overflow:ellipses">
+                <p className="text-sm font-light text-white md:text-xl lg:text-base overflow:ellipses">
                   {projectData.description}
                 </p>
               </div>

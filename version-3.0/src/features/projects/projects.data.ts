@@ -4,7 +4,7 @@ import { wikidrinkimg } from '../../assets/projectimages/wikidrink';
 export const projectsData = [
   {
     imgUrl: myshopimg,
-    alt: 'My Shop',
+    alt: 'MY SHOP',
     description:
       'Web application which simulates an online shop. The application offers basic functionality: users can make an order, while administrators can manage the CMS to add new products to the shop and view the orders placed by customers.',
     githubrepo: 'https://github.com/diecorra/my-shop',
@@ -12,7 +12,7 @@ export const projectsData = [
   },
   {
     imgUrl: wikidrinkimg,
-    alt: 'Wiki Drink',
+    alt: 'WIKI DRINK',
     description:
       'Web application created to search for cocktails and related recipes. Also the user can send the recipe through the form to add other cocktails.',
     githubrepo:
