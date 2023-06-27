@@ -2,7 +2,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { AiFillGithub } from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi';
 import ProjectImage from '../../shared/ProjectImage';
-import { projectsData } from './projects.data';
+import { projectsData } from './projectsdata';
 
 const Card = () => {
   return (
@@ -12,7 +12,7 @@ const Card = () => {
           return (
             <div
               key={projectData.alt}
-              className="flex flex-col max-w-sm rounded overflow-hidden shadow-lg bg-primary md:max-w-4xl lg:max-w-md"
+              className="flex flex-col max-w-sm rounded overflow-hidden shadow-lg bg-primary md:max-w-4xl lg:max-w-md h-full"
             >
               <ProjectImage imgUrl={projectData.imgUrl} alt={projectData.alt} />
               <div className="px-6 py-4 md:py-6">
@@ -23,6 +23,32 @@ const Card = () => {
                   {projectData.description}
                 </p>
               </div>
+
+              {projectData.technologies ? (
+                <div className="flex justify-around justify-center items-center">
+                  {projectData?.technologies?.map((technology) => (
+                    <div
+                      key={technology.name}
+                      className="flex flex-col justify-evenly items-center max-w-min"
+                    >
+                      <div>
+                        <p>{technology.icon}</p>
+                      </div>
+                      <div>
+                        <p
+                          style={{
+                            color: technology.textColor,
+                            fontSize: '0.8rem',
+                          }}
+                        >
+                          {technology.name}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+
               <div className="flex mt-auto justify-evenly w-full py-4 mb-4 md:py-6 md:mb-6">
                 <a
                   href={projectData.githubrepo}
