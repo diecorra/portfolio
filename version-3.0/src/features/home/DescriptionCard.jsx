@@ -32,20 +32,24 @@ const DescriptionCard = () => {
       </div>
       <div className="flex flex-row justify-evenly w-full">
         <AnimationOnScroll initiallyVisible={true} animateIn="animate__bounce">
-          <a
-            href="#resume"
-            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl hover:bg-cyan-300"
-          >
-            Resume
-          </a>
+          <button className="transition-transform hover:scale-110">
+            <a
+              href="#resume"
+              className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl hover:bg-cyan-500"
+            >
+              Resume
+            </a>
+          </button>
         </AnimationOnScroll>
         <AnimationOnScroll initiallyVisible={true} animateIn="">
-          <a
-            href="#projects"
-            className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl hover:bg-cyan-300"
-          >
-            Projects
-          </a>
+          <button className="transition-transform hover:scale-110">
+            <a
+              href="#projects"
+              className="text-xl py-2 px-4 rounded font-semibold bg-secondary text-primary md:text-4xl hover:bg-cyan-500"
+            >
+              Projects
+            </a>
+          </button>
         </AnimationOnScroll>
       </div>
     </div>

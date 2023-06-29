@@ -50,24 +50,28 @@ const Card = () => {
               ) : null}
 
               <div className="flex mt-auto justify-evenly w-full py-4 mb-4 md:py-6 md:mb-6">
-                <a
-                  href={projectData.githubrepo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="button-card hover:bg-cyan-300"
-                >
-                  <AiFillGithub />
-                  GitHub
-                </a>
-                <a
-                  href={projectData.weblink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="button-card hover:bg-cyan-300"
-                >
-                  <BiLinkExternal />
-                  Live
-                </a>
+                <button className="transition-transform hover:scale-105">
+                  <a
+                    href={projectData.githubrepo}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button-card hover:bg-cyan-300"
+                  >
+                    <AiFillGithub />
+                    GitHub
+                  </a>
+                </button>
+                <button className="transition-transform hover:scale-105">
+                  <a
+                    href={projectData.weblink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button-card hover:bg-cyan-300"
+                  >
+                    <BiLinkExternal />
+                    Live
+                  </a>
+                </button>
               </div>
             </div>
           );

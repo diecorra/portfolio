@@ -12,14 +12,16 @@ const Resume = () => {
       <article className="md:text-3xl lg:text-xl">
         This is my resume, you can easily find my contacts and if you want you
         can download it{' '}
-        <a
-          className="underline underline-offset-2"
-          href="https://drive.google.com/file/d/1iBzFVzEvI4jeBTipHLXjHF-tKHrg6Ju6/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          here
-        </a>
+        <button className="transition-transform hover:scale-105">
+          <a
+            className="underline underline-offset-2"
+            href="https://drive.google.com/file/d/1iBzFVzEvI4jeBTipHLXjHF-tKHrg6Ju6/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>
+        </button>
         .
       </article>
       <div
