@@ -53,13 +53,6 @@ export const projectsData = [
         icon: <DiReact style={{ color: '#54D2F3', fontSize: '2.5rem' }} />,
         textColor: 'white',
       },
-      {
-        name: 'Tailwind',
-        icon: (
-          <SiTailwindcss style={{ color: '#2F74C0', fontSize: '1.5rem' }} />
-        ),
-        textColor: 'white',
-      },
     ],
   },
 ];

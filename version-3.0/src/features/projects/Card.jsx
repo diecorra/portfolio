@@ -25,16 +25,16 @@ const Card = () => {
               </div>
 
               {projectData.technologies ? (
-                <div className="flex justify-around justify-center items-center">
+                <div className="flex justify-around justify-center items-center h-full">
                   {projectData?.technologies?.map((technology) => (
                     <div
                       key={technology.name}
-                      className="flex flex-col justify-evenly items-center max-w-min"
+                      className="flex flex-col justify-between items-center max-w-min h-16"
                     >
-                      <div>
+                      <div className="h-[40%]">
                         <p>{technology.icon}</p>
                       </div>
-                      <div>
+                      <div className="h-[40%]">
                         <p
                           style={{
                             color: technology.textColor,
