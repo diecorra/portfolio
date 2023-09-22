@@ -15,7 +15,7 @@ const Resume = () => {
         <button className="transition-transform hover:scale-105">
           <a
             className="underline underline-offset-2"
-            href="https://drive.google.com/file/d/1jylFwGSvYUD1LeZJe794YV91m9rz7oM7/view?usp=drive_link"
+            href="https://drive.google.com/file/d/10d42klt3fvhxQT1M0u7eNDFKt1Z9ouX-/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,7 +51,7 @@ const Resume = () => {
             padding: 0,
             margin: 0,
           }}
-          src="https://www.canva.com/design/DAFjjeM-XOk/view?embed"
+          src="https://www.canva.com/design/DAFu9429mAE/view?embed"
           allowFullScreen="allowfullscreen"
           allow="fullscreen"
         ></iframe>

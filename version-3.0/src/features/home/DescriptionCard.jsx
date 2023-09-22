@@ -12,22 +12,14 @@ const DescriptionCard = () => {
         </h4>
       </div>
       <div>
-        <p className="text-sm font-light text-primary md:text-3xl lg:text-xl lg:px-36 break-all">
-          I am an enthusiastic front-end developer with 3 years of experience in
-          full-stack development, specializing in{' '}
-          <strong className="font-bold hover:text-secondary">front-end</strong>{' '}
-          development over the past year. In the last 2 years, I have devoted my
-          free time to immersing myself in the world of front-end development,
-          continuously enhancing my skills and staying updated on current
-          trends. I have a strong passion for collaborative teamwork and strive
-          to constantly improve and grow as a developer. I possess strong soft
-          skills such as{' '}
-          <strong className="font-bold hover:text-secondary">creativity</strong>{' '}
-          and the ability to build interpersonal{' '}
-          <strong className="font-bold hover:text-secondary">
-            relationships
-          </strong>
-          .
+        <p className="text-sm md:text-2xl lg:text-3xl font-light text-primary lg:px-36 break-all">
+          I am an enthusiastic front-end developer with 2 years of experience.{' '}
+          <br />
+          In the last 2 years, I have devoted my free time to immersing myself
+          in the world of front-end development, continuously enhancing my
+          skills and staying updated on current trends.
+          <br />I am an avid reader of personal growth books and a marathon
+          runner.
         </p>
       </div>
       <div className="flex flex-row justify-evenly w-full">
