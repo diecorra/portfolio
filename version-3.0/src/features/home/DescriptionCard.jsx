@@ -15,8 +15,7 @@ const DescriptionCard = () => {
         <p className="text-sm md:text-2xl lg:text-3xl font-light text-primary lg:px-36 break-all">
           I am an enthusiastic front-end developer with 2 years of experience.{' '}
           <br />
-          In the last 2 years, I have devoted my free time to immersing myself
-          in the world of front-end development, continuously enhancing my
+          In the last 2 years, I have dedicated my free time to immersing myself with a particular focus on React technology, continuously enhancing my
           skills and staying updated on current trends.
           <br />I am an avid reader of personal growth books and a marathon
           runner.
